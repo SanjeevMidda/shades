@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 500ms;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background-color: rgba(0, 0, 255, 0.251);
+  flex-direction: column;
+}
+
+.block {
+  width: 30px;
+  height: 280px;
+  /* border: 1px solid black; */
+}
+
+.blockContainer {
+  display: flex;
+}
+
+h3 {
+  margin-left: 85px;
+}
+
+h1:hover {
+  color: orangered;
+}
